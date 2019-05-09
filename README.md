@@ -3,7 +3,7 @@
 参考官网：https://cloud.tencent.com/document/product/884/30657
 生成内容加在请求头，智聆口语需要有大量数据提交，建议使用POST， Content-Type: application/json
 
-#####注释：
+##### 注释：
 - 示例内SECRET_ID和SECRET_KEY需要替换成已购买账号。
 - SECRET_ID和SECRET_KEY为敏感内容，不建议放在终端源码内，鉴权前三步建议放在服务器内相对安全
 - action和version为接口固定参数，在官网文档中查询并替换，此处以InitOralProcess示例。
