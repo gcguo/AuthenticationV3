@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 import java.util.TreeMap;
-import com.google.gson.Gson;
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
 
@@ -15,11 +14,13 @@ public class AuthenticationV3 {
         TreeMap<String, String> header = null;
         try {
             header = getSignature();
-            HttpUtil.request(header, new Gson().toJson(
-                    new InitRequestParams("123456", "signature", 1, 1, 4.0f), InitRequestParams.class)
-                    .getBytes("UTF-8"));
         } catch (Exception e) {
             e.printStackTrace();
+        }
+        if (null != header) {
+            for (String key : header.keySet()) {
+                System.out.println(key + ":" + header.get(key));
+            }
         }
     }
 
@@ -47,20 +48,24 @@ public class AuthenticationV3 {
         String signedHeaders = "content-type;host";
         String hashedRequestPayload = new String(Hex.encodeHex(DigestUtils.sha256("UNSIGNED-PAYLOAD")));
         String canonicalRequest = httpRequestMethod + "\n" + canonicalUri + "\n" + canonicalQueryString + "\n" + canonicalHeaders + "\n" + signedHeaders + "\n" + hashedRequestPayload;
+        System.out.println(canonicalRequest);
 
         // ************* 步骤 2：拼接待签名字符串 *************
         String credentialScope = date + "/" + service + "/" + "tc3_request";
         String hashedCanonicalRequest = new String(Hex.encodeHex(DigestUtils.sha256(canonicalRequest)));
         String stringToSign = algorithm + "\n" + timestamp + "\n" + credentialScope + "\n" + hashedCanonicalRequest;
+        System.out.println(stringToSign);
 
         // ************* 步骤 3：计算签名 *************
         byte[] secretDate = sign256(("TC3" + SECRET_KEY).getBytes("UTF-8"), date);
         byte[] secretService = sign256(secretDate, service);
         byte[] secretSigning = sign256(secretService, "tc3_request");
         String signature = new String(Hex.encodeHex(sign256(secretSigning, stringToSign))).toLowerCase();
+        System.out.println(signature);
 
         // ************* 步骤 4：拼接 Authorization *************
         String authorization = algorithm + " " + "Credential=" + SECRET_ID + "/" + credentialScope + ", " + "SignedHeaders=" + signedHeaders + ", " + "Signature=" + signature;
+        System.out.println(authorization);
 
         TreeMap<String, String> headers = new TreeMap<>();
         headers.put("Authorization", authorization);
