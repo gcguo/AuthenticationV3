@@ -42,7 +42,6 @@ public class AuthenticationV3 {
         // ************* 步骤 1：拼接规范请求串 *************
         String httpRequestMethod = "POST";
         String canonicalUri = "/";
-//        String canonicalQueryString = "Limit=10&Offset=0";
         String canonicalQueryString = "";
         String canonicalHeaders = "content-type:application/json\n" + "host:" + host + "\n";
         String signedHeaders = "content-type;host";

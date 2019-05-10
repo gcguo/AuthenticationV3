@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03021ba9-3056-455c-afbe-2618fbf990bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../V3_Java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthenticationV3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/V3_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/V3_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/AuthenticationV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/AuthenticationV3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/InitRequestParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/src/AuthenticationV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/src/AuthenticationV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/src/HttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../V3_Java/src/InitRequestParams.java" beforeDir="false" />
-    </list>
+    <list default="true" id="03021ba9-3056-455c-afbe-2618fbf990bb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AuthenticationV3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-257">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <element signature="e#24#65#0" expanded="true" />
               </folding>
@@ -58,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="755" />
     <option name="y" value="43" />
     <option name="width" value="1413" />
@@ -145,17 +131,18 @@
       <workItem from="1557307323029" duration="2044000" />
       <workItem from="1557309394653" duration="1529000" />
       <workItem from="1557369673644" duration="22000" />
+      <workItem from="1557369716212" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3691000" />
+    <option name="totallyTimeSpent" value="4433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,8 +171,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AuthenticationV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-257">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
             <element signature="e#24#65#0" expanded="true" />
           </folding>
