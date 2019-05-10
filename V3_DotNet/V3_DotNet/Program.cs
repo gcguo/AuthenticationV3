@@ -53,18 +53,18 @@ namespace V3_DotNet
             string authorization = algorithm + " " + "Credential=" + SECRET_ID + "/" + credentialScope + ", " + "SignedHeaders=" + signedHeaders + ", " + "Signature=" + signature;
             Console.WriteLine(authorization);
 
-            Dictionary<string, string> directory = new Dictionary<string, string>();
-            directory.Add("Authorization", authorization);
-            directory.Add("Host", host);
-            directory.Add("Content-Type", "application/json");
-            directory.Add("X-TC-Action", action);
-            directory.Add("X-TC-Timestamp", timestamp.ToString());
-            directory.Add("X-TC-Version", version);
-            directory.Add("X-TC-Content-SHA256", "UNSIGNED-PAYLOAD");
-            directory.Add("X-TC-Region", region);
+            Dictionary<string, string> header = new Dictionary<string, string>();
+            header.Add("Authorization", authorization);
+            header.Add("Host", host);
+            header.Add("Content-Type", "application/json");
+            header.Add("X-TC-Action", action);
+            header.Add("X-TC-Timestamp", timestamp.ToString());
+            header.Add("X-TC-Version", version);
+            header.Add("X-TC-Content-SHA256", "UNSIGNED-PAYLOAD");
+            header.Add("X-TC-Region", region);
 
-            foreach (string key in directory.Keys) {
-                Console.WriteLine("key:{0},value:{1}", key, directory[key]);
+            foreach (string key in header.Keys) {
+                Console.WriteLine("{0}:{1}", key, header[key]);
             }
 
             Console.ReadLine();
