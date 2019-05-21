@@ -1,7 +1,6 @@
 # AuthenticationV3
 ## 智聆口语V3签名示例
 - 参考官网：https://cloud.tencent.com/document/product/884/30657
-- 示例代码：https://github.com/gcguo/AuthenticationV3
 - 生成内容加在请求头，智聆口语需要有大量数据提交，建议使用POST， Content-Type: application/json
 
 ##### 注释：

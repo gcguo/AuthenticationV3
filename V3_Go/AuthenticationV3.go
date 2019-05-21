@@ -22,8 +22,6 @@ func main() {
 	timeFormat := time.Unix(1557309332, 0)
 	var date = timeFormat.Format("2006-01-02")
 
-	fmt.Println("test", service, host, region, action, version, algorithm, timestamp, date)
-
 	// ************* 步骤 1：拼接规范请求串 *************
 	var httpRequestMethod = "POST"
 	var canonicalUri = "/"

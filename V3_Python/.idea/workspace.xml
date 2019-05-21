@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03021ba9-3056-455c-afbe-2618fbf990bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../V3_Go/AuthenticationV3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Go/AuthenticationV3.go" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Go/AuthenticationV3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Java/.idea/libraries/org_apache_directory_studio_org_apache_commons_codec_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Java/V3_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/V3_Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/AuthenticationV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/out/production/V3_Java/AuthenticationV3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V3_Java/src/AuthenticationV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../V3_Java/src/AuthenticationV3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +23,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AuthenticationV3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
+            <state relative-caret-position="266">
               <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
@@ -132,17 +137,18 @@
       <workItem from="1557369673644" duration="22000" />
       <workItem from="1557369716212" duration="742000" />
       <workItem from="1557476432862" duration="27000" />
+      <workItem from="1558085630169" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4460000" />
+    <option name="totallyTimeSpent" value="4763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,7 +177,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AuthenticationV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
+        <state relative-caret-position="266">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
