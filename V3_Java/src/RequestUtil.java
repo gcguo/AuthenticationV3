@@ -7,8 +7,7 @@ public class RequestUtil {
 //        new Thread().start();
         try {
             URL url = new URL(requestParams.url);
-            Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("web-proxy.oa.com", 8080));
-            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection(proxy);
+            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("POST");
             httpURLConnection.setDoOutput(true);
             for (String key : requestParams.header.keySet()) {

@@ -1,5 +1,4 @@
 import com.google.gson.Gson;
-
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
